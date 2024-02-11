@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo image"></a>
+            <div class="search-box">
+                <img src="images/search.png" alt="search bar">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png" alt="Home Image"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png" alt="Home Image"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png" alt="Home Image"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png" alt="Home Image"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png" alt="Home Image"><span>Notifications</span></a></li>
+                
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-11.png" alt="Nav Profile" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!--Profile Dropdown menu St-->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-11.png" alt="user profile picture">
+                    <div>
+                        <h3>Ibrahim Salieu K</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <!--a Link1 st-->
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png" alt="feedback image">
+                    <p>Give Feedback</p>
+                    <span>&gt;</span>
+                </a>
+                <!--a Link1 end-->
+                <!--a Link2 st-->
+                <a href="#" class="profile-menu-link">
+                    <img src="images/send.png" alt="setting image">
+                    <p>Settings &#38; Pravicy</p>
+                    <span>&gt;</span>
+                </a>
+                <!--a Link2 end-->
+                <!--a Link3 st-->
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png" alt="Help &#38; support image">
+                    <p>Help &#38; Support</p>
+                    <span>&gt;</span>
+                </a>
+                <!--a Link3 end-->
+                <!--a Link4 st-->
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png" alt="display image">
+                    <p>Display &#38; Accessibility</p>
+                    <span>&gt;</span>
+                </a>
+                <!--a Link4 end-->
+                <!--a Link5 st-->
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png" alt="logout image">
+                    <p>Logout</p>
+                    <span>&gt;</span>
+                </a>
+                <!--a Link5 end-->
+               
+            </div>
+        </div>
+         <!--Profile Dropdown menu End-->
+    </nav>
+    <div class="container">
+        <!--Profile Main Starts Here-->
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/sal3.jpg" alt="Cover picture" width="100%" class="h100">
+                <div class="profile-container-inner">
+                    <img src="images/sal2.jpg" alt="Profile User Picture" class="profile-pic">
+                    <h1>Ib. Salieu Kamara</h1>
+                    <b>Electronic &#124; and IT Egineeer &#124; Former IT Engineer at Qcell SL &#124; Data office at COMAHS&#47; ISGLobal</b>
+                    <p>Sierra Leone &middot; <a href="#">Contact info</a> </p>
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png" alt="second profile user">
+                        <span>10 mutual connections: GeeksforGeeks, freecodecamp & 8 others</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#"><img src="images/connect.png" alt="connect image">Connect</a>
+                        <a href="#"><img src="images/chat.png" alt="chat image">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Profile Main Endts Here-->
+        
+        <!--Profile Sidebar Starts Here-->
+        <div class="profile-sidebar">
+            <h1>Hello World</h1>
+        </div>   
+        <!--Profile Siedbar Ends Here-->
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>
