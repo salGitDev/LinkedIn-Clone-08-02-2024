@@ -686,7 +686,9 @@ Profile html file style goes here
 
 .profile-container p {
     margin-top: 5px;
+    text-align: justify;
 }
+
 
 .profile-container p a {
     color: #045be6;
@@ -701,14 +703,17 @@ Profile html file style goes here
 
 .mutual-connection img {
     width: 30px;
+    height: 30px;
+    object-fit: cover;
     border-radius: 50%;
     margin-right: 5px;
 }
 
 .mutual-connection span {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
 }
+
 
 .profile-btn {
     margin: 20px  0;
@@ -719,11 +724,43 @@ Profile html file style goes here
     background: #e4e6eb;
     padding: 6px 15px;
     border-radius: 4px;
+    font-weight: 500;
+    
+}
+.profile-btn a span {
+    margin-left: 6px;
+    font-size: 14px;
+    
 }
 .profile-btn a:nth-child(1) {
     margin-right: 5px;
+    background: #045be6;
+    color: #fff;
 }
 
+.profile-btn img {
+    width: 18px;
+}
+
+.profile-description {
+    background: #fff;
+    padding: 20px 4% 30px;
+    margin: 12px 0;
+}
+
+.profile-description h2 {
+    color: #333;
+    margin: 10px 0 20px;
+
+}
+
+
+
+.see-more-links {
+    text-align: right;
+    font-size: 15px;
+
+}
 
 /* profile-sidebar */
 
