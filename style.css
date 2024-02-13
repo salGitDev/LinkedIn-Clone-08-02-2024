@@ -750,17 +750,107 @@ Profile html file style goes here
 
 .profile-description h2 {
     color: #333;
-    margin: 10px 0 20px;
+    margin: 10px 0 10px;
 
 }
 
+
+.profile-description p {
+    padding: 10px;
+    
+}
 
 
 .see-more-links {
     text-align: right;
     font-size: 15px;
+    
+}
+
+
+
+.profile-description-row {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.profile-description-row img {
+    width: 80px;
+    border: 1px solid blue;
+    margin-right: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
 
 }
+
+.profile-description-row div {
+    width: 100%;
+
+}
+.profile-description-row h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+.profile-description-row b {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.profile-description-row b:nth-child(2) {
+    font-weight: 700;
+    
+}
+
+.profile-description-row b:nth-child(3) {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.profile-description-row b span{
+    color: orange;
+    font-weight: 600;
+}
+
+.profile-description-row ul li {
+    list-style: circle;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.profile-description-row ul li:nth-child(1){
+    margin-top: 10px;
+}
+
+.profile-description-row hr {
+    border: 0;
+    border-bottom: 1px solid #999;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* profile-sidebar */
 
@@ -771,6 +861,3 @@ Profile html file style goes here
     position: sticky;
     top: 73%;
 }
-
-
-
