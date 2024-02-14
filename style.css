@@ -776,8 +776,8 @@ Profile html file style goes here
 }
 
 .profile-description-row img {
-    width: 80px;
-    border: 1px solid blue;
+    width: 50px;
+    border: 1px solid orange;
     margin-right: 25px;
     margin-top: 5px;
     border-radius: 5px;
@@ -796,8 +796,11 @@ Profile html file style goes here
 }
 .profile-description-row b {
     display: block;
-    font-weight: 500;
+    background:  rgba(193, 228, 229, 0.08);
+    border: 2px solid rgba(193, 228, 229, 0.1);
+    font-weight: 600;
     font-size: 18px;
+    padding: 10px;
 }
 
 .profile-description-row b:nth-child(2) {
@@ -817,7 +820,7 @@ Profile html file style goes here
 }
 
 .profile-description-row ul li {
-    list-style: circle;
+    list-style: disc;
     margin-bottom: 8px;
     font-weight: 500;
 }
