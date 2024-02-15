@@ -835,14 +835,44 @@ Profile html file style goes here
 }
 
 
+.profile-desc-row {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
 
 
 
 
+.profile-desc-row  img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 5px;
+    border: 1px solid #999;
+
+}
+
+.profile-desc-row h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.profile-desc-row b {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-desc-row  {
+    margin-top: 8px;
+}
 
 
-
-
+.b-left {
+    padding-left: 10px;
+    border-left: 2px solid rgba(1, 13, 14, 0.1);
+}
 
 
 
