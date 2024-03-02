@@ -107,6 +107,14 @@ width: 100%;
     position: relative;
 
 }
+
+.hamburger-tg {
+    display: none; 
+    font-size: 20px;
+    width: 60px;
+    font-weight: 800;
+    margin-left: 5px;
+  }
 .online::after{
     content: '';
     width: 7px;
@@ -195,6 +203,47 @@ width: 100%;
     
 
 }
+
+/* Toggle Hambuger Starts Here */
+
+.hamburger {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: blue;
+    margin: 6px 0px;
+    transition: 0.4s;
+    
+}
+
+.hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.is-active:after {
+   
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar {
+    opacity: 0;
+}
+
+/* Toggle Hambuger Ends Here */
+
 /* 3.0  Containter Content Goes here */
 
 .container {
@@ -845,8 +894,8 @@ Profile html file style goes here
 
 
 .profile-desc-row  img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     border-radius: 50%;
     margin-right: 25px;
@@ -876,16 +925,133 @@ Profile html file style goes here
     border-left: 2px solid rgba(1, 13, 14, 0.1);
 }
 
+.skills-bg {
+    background: #9ec2e6;
+    border-radius: 20px 20px 0 0;
+}
+
+.skills-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 18px;
+    border: 1px solid #b8e6bf;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    
+    
+}
 
 
 
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+   margin: o auto;
+}
+.table td, .table th {
+    padding: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
 
+.table td, 
+.table th,
+.table tr,
+table td
+{
+   border: 1px solid black;
+  
+}
+.table thead {
+    background-color: rgba(255, 192, 203, 0.4);
+}
+.table th {
+    font-weight: 700;
+}
 
+@media screen and (max-width:768px) {
+    .hamburger-tg {
+      display: flex;
+      cursor: pointer;
+    }
+    .hamburger-tg #closeHam {
+      display: none;
+    }
+    .search-box  {
+        max-width: 150px;
+    }
+    .navbar-center ul {
+        display: none;
+       flex-direction: column;
+       color: #fff;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 58px; 
+        width: 100%;
+        padding-left: 50px;
+        background-color: lightblue;
+        
+        /*
+        height: calc(100vh - 58px);
+        padding-top: 60px;
+        gap: 10vh; */
+      }
 
+      .navbar-center ul li a {
+       padding: 10px;
+       color: #fff;
+       font-weight: 600;
+       text-transform: uppercase;
+       
+       
+      }
+      .navbar-center ul li {
+        margin-left: 20px;
+        
+       }
+      .navbar-center ul li img {
+        display: none;
+        
+       }
+  }
 
+@media(max-width: 850px){
+    .left-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        position: static;
+        z-index: 2;
+        
+    
+       
+    }
+    .main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        position: static;
+        z-index: 2;
+        
+    }
 
-
-
+    .right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        position: static;
+        z-index: 2;
+        
+    
+    }
+    
+    
+}
 
 /* profile-sidebar */
 

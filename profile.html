@@ -8,84 +8,92 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo image"></a>
-            <div class="search-box">
-                <img src="images/search.png" alt="search bar">
-                <input type="text" placeholder="Search">
-            </div>
-        </div>
-        <div class="navbar-center">
-            <ul>
-                <li><a href="#" class="active-link"><img src="images/home.png" alt="Home Image"><span>Home</span></a></li>
-                <li><a href="#"><img src="images/network.png" alt="Home Image"><span>My Network</span></a></li>
-                <li><a href="#"><img src="images/jobs.png" alt="Home Image"><span>Jobs</span></a></li>
-                <li><a href="#"><img src="images/message.png" alt="Home Image"><span>Messaging</span></a></li>
-                <li><a href="#"><img src="images/notification.png" alt="Home Image"><span>Notifications</span></a></li>
-                
-            </ul>
-        </div>
-        <div class="navbar-right">
-            <div class="online">
-                <img src="images/user-11.png" alt="Nav Profile" class="nav-profile-img" onclick="toggleMenu()">
-            </div>
-        </div>
-        <!--Profile Dropdown menu St-->
-        <div class="profile-menu-wrap" id="profileMenu">
-            <div class="profile-menu">
-                <div class="user-info">
-                    <img src="images/user-11.png" alt="user profile picture">
-                    <div>
-                        <h3>Ibrahim Salieu K</h3>
-                        <a href="#">See your profile</a>
-                    </div>
+    <!--Header St Here-->
+    <header class="navigation-header">
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="index.html" class="logo"><img src="images/logo.png" alt="logo image"></a>
+                <div class="search-box">
+                    <img src="images/search.png" alt="search bar">
+                    <input type="text" placeholder="Search">
                 </div>
-                <hr>
-                <!--a Link1 st-->
-                <a href="#" class="profile-menu-link">
-                    <img src="images/feedback.png" alt="feedback image">
-                    <p>Give Feedback</p>
-                    <span>&gt;</span>
-                </a>
-                <!--a Link1 end-->
-                <!--a Link2 st-->
-                <a href="#" class="profile-menu-link">
-                    <img src="images/send.png" alt="setting image">
-                    <p>Settings &#38; Pravicy</p>
-                    <span>&gt;</span>
-                </a>
-                <!--a Link2 end-->
-                <!--a Link3 st-->
-                <a href="#" class="profile-menu-link">
-                    <img src="images/help.png" alt="Help &#38; support image">
-                    <p>Help &#38; Support</p>
-                    <span>&gt;</span>
-                </a>
-                <!--a Link3 end-->
-                <!--a Link4 st-->
-                <a href="#" class="profile-menu-link">
-                    <img src="images/display.png" alt="display image">
-                    <p>Display &#38; Accessibility</p>
-                    <span>&gt;</span>
-                </a>
-                <!--a Link4 end-->
-                <!--a Link5 st-->
-                <a href="#" class="profile-menu-link">
-                    <img src="images/logout.png" alt="logout image">
-                    <p>Logout</p>
-                    <span>&gt;</span>
-                </a>
-                <!--a Link5 end-->
-               
             </div>
-        </div>
-         <!--Profile Dropdown menu End-->
-    </nav>
+            <div class="navbar-center">
+                <ul id="navigation-items">
+                    <li><a href="#" class="active-link"><img src="images/home.png" alt="Home Image"><span>Homes</span></a></li>
+                    <li><a href="#"><img src="images/network.png" alt="Home Image"><span>My Network</span></a></li>
+                    <li><a href="#"><img src="images/jobs.png" alt="Home Image"><span>Jobs</span></a></li>
+                    <li><a href="#"><img src="images/message.png" alt="Home Image"><span>Messaging</span></a></li>
+                    <li><a href="#"><img src="images/notification.png" alt="Home Image"><span>Notifications</span></a></li>
+                    
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <div class="online">
+                    <img src="images/user-11.png" alt="Nav Profile" class="nav-profile-img" onclick="toggleMenu()">
+                </div>
+            </div>
+            <!--Profile Dropdown menu St-->
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="images/user-11.png" alt="user profile picture">
+                        <div>
+                            <h3>Ibrahim Salieu K</h3>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--a Link1 st-->
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="feedback image">
+                        <p>Give Feedback</p>
+                        <span>&gt;</span>
+                    </a>
+                    <!--a Link1 end-->
+                    <!--a Link2 st-->
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/send.png" alt="setting image">
+                        <p>Settings &#38; Pravicy</p>
+                        <span>&gt;</span>
+                    </a>
+                    <!--a Link2 end-->
+                    <!--a Link3 st-->
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/help.png" alt="Help &#38; support image">
+                        <p>Help &#38; Support</p>
+                        <span>&gt;</span>
+                    </a>
+                    <!--a Link3 end-->
+                    <!--a Link4 st-->
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/display.png" alt="display image">
+                        <p>Display &#38; Accessibility</p>
+                        <span>&gt;</span>
+                    </a>
+                    <!--a Link4 end-->
+                    <!--a Link5 st-->
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/logout.png" alt="logout image">
+                        <p>Logout</p>
+                        <span>&gt;</span>
+                    </a>
+                    <!--a Link5 end-->
+                   
+                </div>
+            </div>
+             <!--Profile Dropdown menu End-->
+             <div class="hamburger-tg">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+        </nav> 
+    </header>
+    <!--Header En Here-->
     <div class="container">
         <!--Profile Main Starts Here-->
         <div class="profile-main">
-            <div class="profile-container">
+            <div class="profile-container" id="container">
                 <img src="images/sal3.jpg" alt="Cover picture" width="100%" class="h100">
                 <div class="profile-container-inner">
                     <img src="images/sal2.jpg" alt="Profile User Picture" class="profile-pic">
@@ -194,6 +202,7 @@
                     <h3>Web Development</h3>
                     <ul>
                         <li>Web Hosting</li>
+                        <li>LinkedIn Clone</li>
                         <li>Finding Website Domains for Clients</li>
                         <li>Building Web Sites for Clients</li>
                         <li>Potential of Building Dynamic Web Applications</li>
@@ -310,19 +319,83 @@
             </div>
                 <!--1st profile-description en here-->  
         </div>
-            <!--2nd profile description ends here-->
+        <div class="profile-description skills-bg">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">HTML 5</a>
+            <a href="#" class="skills-btn">CSS 3</a>
+            <a href="#" class="skills-btn">Bootstrap 5</a>
+            <a href="#" class="skills-btn">JavaScript</a>
+            <a href="#" class="skills-btn">Open Data Kit (ODK)</a>
+            <a href="#" class="skills-btn">Git and GitHub</a>
+            <a href="#" class="skills-btn">Computer netwroking</a>
+            <a href="#" class="skills-btn">SQL</a>
+            <a href="#" class="skills-btn">SPSS</a>
+            <a href="#" class="skills-btn">R Programming</a>
+            <a href="#" class="skills-btn">REDCap</a>
+            <a href="#" class="skills-btn">R Programming</a>
+            <a href="#" class="skills-btn">R Programming</a>
+            <a href="#" class="skills-btn">Excel</a>
+            <a href="#" class="skills-btn">Google Sheet</a>
+            <a href="#" class="skills-btn">Ms Word</a>
+            <a href="#" class="skills-btn">MS Access</a>
+            <a href="#" class="skills-btn">User Interface Design</a>
+            <a href="#" class="skills-btn">AnyDesk Remote Support</a>
+            <a href="#" class="skills-btn">AutoCAD</a>
+         </div>
+         <div class="profile-description skills-bg">
+            <h2>Referees</h2>
+           <table class="table">
+            <thead>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Contact</th>
+                <th>Designation</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="S.No">Professor Redwood Sawyerr (My Project Supervisor)</td>
+                    <td data-label="S.No">Fourah Bay College</td>
+                    <td data-label="S.No">+232 76-670-904  &#124; osehsylrs1952@gamil.com </td>
+                    <td data-label="S.No">Lecturer and Former DVC at FBC </td>
+                </tr>
+                <tr>
+                    <td data-label="S.No">Mr. Julian Williams (My Supervisor)</td>
+                    <td data-label="S.No">FBC ISGlobal &#124; COMAHS</td>
+                    <td data-label="S.No">+232 30-182-192 &#124; julianwilliams@icaria.health</td>
+                    <td data-label="S.No">Assitant Data Manager</td> 
+                </tr>
+                <tr>
+                    <td data-label="S.No">Mr. Alhaji John Koroma &#124; (My IT Supervisor)</td>
+                    <td data-label="S.No">Qcell Mobile Network</td>
+                    <td data-label="S.No">+232 31-001-065 &#124; alhaji.koroma@qcell.sl </td>
+                    <td data-label="S.No">Senior IT and Datacom Engineer</td>
+                </tr>
+                <tr>     
+                    <td data-label="S.No">Mr. Serray Jah (My Intern Supervisor)</td>
+                    <td data-label="S.No">Tiwai Memory Masters</td>
+                    <td data-label="S.No">+23276-402-279</td>
+                    <td data-label="S.No">Supervisor and Network Engineer </td> 
+                </tr>
+            </tbody>
+           </table>
+         </div>
         </div>
         <!--Profile Main Endts Here-->
         <!--profile-description st here--> 
-         <div class="profile-description">
-            <h2>Skills </h2>
-         </div>
-        <!--profile-description en here-->  
         
+        <!--profile-description en here-->  
         <!--Profile Sidebar Starts Here-->
         <div class="profile-sidebar">
-            <h1>Hello, World</h1>
-           
+            <h1<div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="images/user-11.png" class="mr-10" alt="User image">
+                    <img src="images/mi-logo.png" alt="Mi logo">
+                </div>
+                <b>Brand and Demaand in Xiaomi</b>
+                <a href="#" class="add-link">Learn More</a>
+            </div>
         </div>   
         <!--Profile Siedbar Ends Here-->
     </div>
